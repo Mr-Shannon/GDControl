@@ -1,0 +1,9 @@
+.\objects\showmem.o: ..\RT-Thread\Cortex-M3\showmem.c
+.\objects\showmem.o: ..\RT-Thread\include\rtthread.h
+.\objects\showmem.o: ..\RT-Thread\include\rtconfig.h
+.\objects\showmem.o: ..\RT-Thread\include\rtdebug.h
+.\objects\showmem.o: ..\RT-Thread\include\rtdef.h
+.\objects\showmem.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\showmem.o: ..\RT-Thread\include\rtservice.h
+.\objects\showmem.o: ..\RT-Thread\include\rtm.h
+.\objects\showmem.o: ..\RT-Thread\include\rtthread.h

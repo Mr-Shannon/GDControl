@@ -1,0 +1,9 @@
+.\objects\backtrace.o: ..\RT-Thread\Cortex-M3\backtrace.c
+.\objects\backtrace.o: ..\RT-Thread\include\rtthread.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtconfig.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtdebug.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtdef.h
+.\objects\backtrace.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtservice.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtm.h
+.\objects\backtrace.o: ..\RT-Thread\include\rtthread.h

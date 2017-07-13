@@ -1,0 +1,10 @@
+.\objects\timer.o: ..\RT-Thread\Kernel\timer.c
+.\objects\timer.o: ..\RT-Thread\include\rtthread.h
+.\objects\timer.o: ..\RT-Thread\include\rtconfig.h
+.\objects\timer.o: ..\RT-Thread\include\rtdebug.h
+.\objects\timer.o: ..\RT-Thread\include\rtdef.h
+.\objects\timer.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\timer.o: ..\RT-Thread\include\rtservice.h
+.\objects\timer.o: ..\RT-Thread\include\rtm.h
+.\objects\timer.o: ..\RT-Thread\include\rtthread.h
+.\objects\timer.o: ..\RT-Thread\include\rthw.h
