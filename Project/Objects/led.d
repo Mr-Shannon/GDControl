@@ -1,5 +1,5 @@
 .\objects\led.o: ..\Drivers\led.c
-.\objects\led.o: ..\Drivers\led.h
+.\objects\led.o: ..\Drivers\LED.h
 .\objects\led.o: ..\RT-Thread\include\rtthread.h
 .\objects\led.o: ..\RT-Thread\include\rtconfig.h
 .\objects\led.o: ..\RT-Thread\include\rtdebug.h

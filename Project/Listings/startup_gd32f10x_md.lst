@@ -525,11 +525,11 @@ ARM Macro Assembler    Page 9
 
 
 ork --depend=.\objects\startup_gd32f10x_md.d -o.\objects\startup_gd32f10x_md.o 
--I.\RTE\_Control -Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -Id:\Keil_
-v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include --predefine="__UVIS
-ION_VERSION SETA 523" --predefine="_RTE_ SETA 1" --predefine="GD32F10X_MD SETA 
-1" --list=.\listings\startup_gd32f10x_md.lst ..\GD32F10xLibrary\GD32F10x_Firmwa
-re_Library\Firmware\startup_gd32f10x_md.s
+-I.\RTE\_GDControl -Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -Id:\Kei
+l_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include --predefine="__UV
+ISION_VERSION SETA 523" --predefine="_RTE_ SETA 1" --predefine="GD32F10X_MD SET
+A 1" --list=.\listings\startup_gd32f10x_md.lst ..\GD32F10xLibrary\GD32F10x_Firm
+ware_Library\Firmware\startup_gd32f10x_md.s
 
 
 

@@ -39,3 +39,5 @@
 .\objects\usart.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_timer.h
 .\objects\usart.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_usart.h
 .\objects\usart.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_wwdg.h
+.\objects\usart.o: ..\RT-Thread\Components\Drivers\include\serial.h
+.\objects\usart.o: ..\Drivers\usart.h

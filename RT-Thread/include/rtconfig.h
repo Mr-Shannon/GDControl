@@ -56,5 +56,15 @@
 /* Using Small MM */
 #define RT_USING_SMALL_MEM
 
+/* SECTION: Device System */
+/* Using Device System */
+#define RT_USING_DEVICE
+// <bool name="RT_USING_DEVICE_IPC" description="Using device communication" default="true" />
+#define RT_USING_DEVICE_IPC
+// <bool name="RT_USING_SERIAL" description="Using Serial" default="true" />
+#define RT_USING_SERIAL
+
+#define RT_CONSOLE_DEVICE_NAME	    "uart1"
+
 
 #endif

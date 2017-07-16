@@ -48,6 +48,7 @@
 ".\objects\backtrace.o"
 ".\objects\cpuport.o"
 ".\objects\showmem.o"
+".\objects\serial.o"
 --strict --scatter ".\Objects\Project.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
