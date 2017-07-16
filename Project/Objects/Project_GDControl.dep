@@ -1,7 +1,7 @@
 Dependencies for Project 'Project', Target 'GDControl': (DO NOT MODIFY !)
 F (..\Application\main.c)(0x5967996B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -39,10 +39,10 @@ I (..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10
 I (..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_wwdg.h)(0x54BC5900)
 I (..\Application\rt_user.h)(0x59678DB8)
 I (..\Drivers\led.h)(0x59699849)
-F (..\Application\rt_user.c)(0x596B72EB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\rt_user.o --omf_browse .\objects\rt_user.crf --depend .\objects\rt_user.d)
+F (..\Application\rt_user.c)(0x596B90DE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\rt_user.o --omf_browse .\objects\rt_user.crf --depend .\objects\rt_user.d)
 I (..\Application\rt_user.h)(0x59678DB8)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -82,7 +82,7 @@ I (..\Drivers\led.h)(0x59699849)
 F (..\Drivers\led.c)(0x596998A9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (..\Drivers\LED.h)(0x59699849)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -121,7 +121,7 @@ I (..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10
 F (..\Drivers\usart.c)(0x596B687A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
 I (..\Drivers\usart.h)(0x5969EC7A)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -846,7 +846,7 @@ I (..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10
 F (..\RT-Thread\Kernel\clock.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -855,7 +855,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\components.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\components.o --omf_browse .\objects\components.crf --depend .\objects\components.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -863,7 +863,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\device.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -872,7 +872,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\idle.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\idle.o --omf_browse .\objects\idle.crf --depend .\objects\idle.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -880,7 +880,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\ipc.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\ipc.o --omf_browse .\objects\ipc.crf --depend .\objects\ipc.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -890,15 +890,15 @@ I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Kernel\irq.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
 I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
-F (..\RT-Thread\Kernel\kservice.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
+F (..\RT-Thread\Kernel\kservice.c)(0x596B90FD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\kservice.o --omf_browse .\objects\kservice.crf --depend .\objects\kservice.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -908,7 +908,7 @@ I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Kernel\mem.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -917,7 +917,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\memheap.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\memheap.o --omf_browse .\objects\memheap.crf --depend .\objects\memheap.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -926,7 +926,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\mempool.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\mempool.o --omf_browse .\objects\mempool.crf --depend .\objects\mempool.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -935,7 +935,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\module.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\module.o --omf_browse .\objects\module.crf --depend .\objects\module.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -943,7 +943,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\object.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\object.o --omf_browse .\objects\object.crf --depend .\objects\object.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -952,7 +952,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Kernel\scheduler.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\scheduler.o --omf_browse .\objects\scheduler.crf --depend .\objects\scheduler.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -962,7 +962,7 @@ I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Kernel\slab.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\slab.o --omf_browse .\objects\slab.crf --depend .\objects\slab.d)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -970,7 +970,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Kernel\thread.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\thread.o --omf_browse .\objects\thread.crf --depend .\objects\thread.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -979,7 +979,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Kernel\timer.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -989,7 +989,7 @@ I (..\RT-Thread\include\rthw.h)(0x595F9470)
 F (..\RT-Thread\Cortex-M3\context_rvds.S)(0x595F9470)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "GD32F10X_MD SETA 1"--list .\listings\context_rvds.lst --xref -o .\objects\context_rvds.o --depend .\objects\context_rvds.d)
 F (..\RT-Thread\Cortex-M3\backtrace.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\backtrace.o --omf_browse .\objects\backtrace.crf --depend .\objects\backtrace.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -997,7 +997,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Cortex-M3\cpuport.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\cpuport.o --omf_browse .\objects\cpuport.crf --depend .\objects\cpuport.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -1005,7 +1005,7 @@ I (..\RT-Thread\include\rtservice.h)(0x595F9470)
 I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Cortex-M3\showmem.c)(0x595F9470)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\showmem.o --omf_browse .\objects\showmem.crf --depend .\objects\showmem.d)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
@@ -1014,7 +1014,7 @@ I (..\RT-Thread\include\rtm.h)(0x595F9470)
 F (..\RT-Thread\Components\Drivers\source\serial.c)(0x5969E692)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\Application -I ..\Drivers -I ..\RT-Thread\include -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS -I ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc -I ..\RT-Thread\Components\Drivers\include-I.\RTE\_GDControl-Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include-D__UVISION_VERSION="523" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
 I (..\RT-Thread\Components\Drivers\include\serial.h)(0x5969B1D6)
 I (..\RT-Thread\include\rtthread.h)(0x595F9470)
-I (..\RT-Thread\include\rtconfig.h)(0x596B6973)
+I (..\RT-Thread\include\rtconfig.h)(0x596B903F)
 I (..\RT-Thread\include\rtdebug.h)(0x595F9470)
 I (..\RT-Thread\include\rtdef.h)(0x595F9470)
 I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)

@@ -64,7 +64,10 @@
 // <bool name="RT_USING_SERIAL" description="Using Serial" default="true" />
 #define RT_USING_SERIAL
 
+#define RT_USING_CONSOLE
 #define RT_CONSOLE_DEVICE_NAME	    "uart1"
+#define RT_CONSOLEBUF_SIZE 128
+
 
 
 #endif

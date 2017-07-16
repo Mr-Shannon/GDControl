@@ -6,24 +6,25 @@ static rt_uint8_t led1_stack[512];
 static struct rt_thread led1_thread;
 static void led1_thread_entry(void* parameter)
 {
-  rt_device_t device;
-  uint8_t open_flag = 0;
-  uint8_t uart_rx_buffer[12] = {'A','B','1','2','3','4','s','d','6','8','8','q'};
-  
-  //打开USART1设备
-  device = rt_device_find("uart1");
-  if (device != RT_NULL){
-    if (rt_device_open(device, RT_DEVICE_OFLAG_RDWR) == RT_EOK)
-      open_flag = 1;  
-  } 
-  
-  led_init();
+//  rt_device_t device;
+//  uint8_t open_flag = 0;
+//  uint8_t uart_rx_buffer[12] = {'A','B','1','2','3','4','s','d','6','8','8','q'};
+//  
+//  //打开USART1设备
+//  device = rt_device_find("uart1");
+//  if (device != RT_NULL){
+//    if (rt_device_open(device, RT_DEVICE_OFLAG_RDWR) == RT_EOK)
+//      open_flag = 1;  
+//  } 
+//  
+//  led_init();
   
   while (1)
   {
     /* led1 on */
     led_on(0);
-    if (open_flag)rt_device_write(device, 0, &uart_rx_buffer[0],12);
+//    if (open_flag)rt_device_write(device, 0, &uart_rx_buffer[0],12);
+
     rt_kprintf("Hello World!");
     rt_thread_delay( RT_TICK_PER_SECOND/2 ); /* sleep 0.5 second and switch to other thread */
 
@@ -34,7 +35,7 @@ static void led1_thread_entry(void* parameter)
 }
 
 ALIGN(4)
-static rt_uint8_t led2_stack[128];
+static rt_uint8_t led2_stack[256];
 static struct rt_thread led2_thread;
 static void led2_thread_entry(void* parameter)
 {
@@ -125,46 +126,6 @@ void SystemClock_Config(void)
 	RCC_APB2Config(RCC_SYSCLK_DIV1); // 108MHz
 }
 
-void usart_config(void)
-{
-  /* Enable GPIOA clock */
-    RCC_APB2PeriphClock_Enable( RCC_APB2PERIPH_GPIOA , ENABLE );
-    
-    /* Enable USART1 APB clock */
-    RCC_APB2PeriphClock_Enable( RCC_APB2PERIPH_USART1 , ENABLE );
-    
-    /* USART1 Pins configuration **************************************************/
-    GPIO_DeInit( GPIOA );
-    {
-        /* Configure the GPIO ports */
-        GPIO_InitPara GPIO_InitStructure;
-       
-        GPIO_InitStructure.GPIO_Pin     = GPIO_PIN_9 ;
-        GPIO_InitStructure.GPIO_Mode    = GPIO_MODE_AF_PP;
-        GPIO_InitStructure.GPIO_Speed   = GPIO_SPEED_50MHZ;
-        GPIO_Init( GPIOA , &GPIO_InitStructure); 
-        GPIO_InitStructure.GPIO_Pin     = GPIO_PIN_10;
-        GPIO_InitStructure.GPIO_Mode    = GPIO_MODE_IN_FLOATING;;
-        GPIO_Init( GPIOA , &GPIO_InitStructure); 
-    }
-
-    { 
-        USART_InitPara USART_InitStructure;
-        
-        USART_DeInit( USART1 );
-        USART_InitStructure.USART_BRR           = 115200;
-        USART_InitStructure.USART_WL            = USART_WL_8B;
-        USART_InitStructure.USART_STBits            = USART_STBITS_1;
-        USART_InitStructure.USART_Parity                = USART_PARITY_RESET;
-        USART_InitStructure.USART_HardwareFlowControl = USART_HARDWAREFLOWCONTROL_NONE;
-        USART_InitStructure.USART_RxorTx                = USART_RXORTX_RX | USART_RXORTX_TX;
-        USART_Init(USART1, &USART_InitStructure);
-    }
-
-    /* USART enable */
-    USART_Enable(USART1, ENABLE);
-}
-
 /**
 * This is RT-Thread initialize.
 *
@@ -179,10 +140,9 @@ void rt_user_os_init(void)
   /*初始化堆空间*/
   rt_system_heap_init((void*)&Image$$RW_IRAM1$$ZI$$Limit, (void*)STM32_SRAM_END);
   
-  usart_config();
-  
   extern void rt_usart_init(void);
   rt_usart_init();
+  rt_console_set_device(RT_CONSOLE_DEVICE_NAME);
   
   /* init scheduler system */
   rt_system_scheduler_init();
