@@ -8,7 +8,7 @@
 .\objects\serial.o: ..\RT-Thread\include\rtservice.h
 .\objects\serial.o: ..\RT-Thread\include\rtm.h
 .\objects\serial.o: ..\RT-Thread\include\rtthread.h
-.\objects\serial.o: ..\Drivers\usart.h
+.\objects\serial.o: ..\Driver\usart.h
 .\objects\serial.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS\gd32f10x.h
 .\objects\serial.o: d:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h
 .\objects\serial.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

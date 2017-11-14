@@ -1,5 +1,5 @@
-.\objects\usart.o: ..\Drivers\usart.c
-.\objects\usart.o: ..\Drivers\usart.h
+.\objects\usart.o: ..\Driver\usart.c
+.\objects\usart.o: ..\Driver\usart.h
 .\objects\usart.o: ..\RT-Thread\include\rtthread.h
 .\objects\usart.o: ..\RT-Thread\include\rtconfig.h
 .\objects\usart.o: ..\RT-Thread\include\rtdebug.h
@@ -40,4 +40,4 @@
 .\objects\usart.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_usart.h
 .\objects\usart.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_wwdg.h
 .\objects\usart.o: ..\RT-Thread\Components\Drivers\include\serial.h
-.\objects\usart.o: ..\Drivers\usart.h
+.\objects\usart.o: ..\Driver\usart.h

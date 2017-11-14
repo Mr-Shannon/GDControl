@@ -39,4 +39,4 @@
 .\objects\rt_user.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_timer.h
 .\objects\rt_user.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_usart.h
 .\objects\rt_user.o: ..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc\gd32f10x_wwdg.h
-.\objects\rt_user.o: ..\Drivers\led.h
+.\objects\rt_user.o: ..\Driver\led.h

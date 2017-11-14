@@ -303,9 +303,11 @@ ARM Macro Assembler    Page 5
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\context_rvds.d -o.\objects\context_rvds.o -I.\RTE\_GDCon
 trol -Id:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -Id:\Keil_v5\ARM\PACK\
-Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10x\Include --predefine="__UVISION_VERSION 
-SETA 523" --predefine="_RTE_ SETA 1" --predefine="GD32F10X_MD SETA 1" --list=.\
-listings\context_rvds.lst ..\RT-Thread\Cortex-M3\context_rvds.S
+GigaDevice\GD32F10x_DFP\2.0.0\Device\Include -Id:\Keil_v5\ARM\PACK\GigaDevice\G
+D32F10x_DFP\2.0.0\Device\GD32F10x\Include --predefine="__UVISION_VERSION SETA 5
+23" --predefine="_RTE_ SETA 1" --predefine="GD32F10X_MD SETA 1" --predefine="US
+E_STDPERIPH_DRIVER SETA 1" --list=.\listings\context_rvds.lst ..\RT-Thread\Cort
+ex-M3\context_rvds.S
 
 
 
@@ -509,4 +511,4 @@ Symbol: rt_thread_switch_interrupt_flag
       At line 148 in file ..\RT-Thread\Cortex-M3\context_rvds.S
 
 4 symbols
-356 symbols in table
+357 symbols in table

@@ -15,7 +15,7 @@
         <TargetCommonOption>
           <Device>GD32F103CB</Device>
           <Vendor>GigaDevice</Vendor>
-          <PackID>Keil.GD32F1xx_DFP.1.1.0</PackID>
+          <PackID>GigaDevice.GD32F10x_DFP.2.0.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x00005000) IROM(0x08000000,0x00020000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F10X_MD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Application;..\Drivers;..\RT-Thread\include;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc;..\RT-Thread\Components\Drivers\include</IncludePath>
+              <IncludePath>..\Application;..\Driver;..\RT-Thread\include;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Template;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\CMSIS;..\GD32F10xLibrary\GD32F10x_Firmware_Library\Firmware\Peripherals\inc;..\RT-Thread\Components\Drivers\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,17 +392,17 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Drivers</GroupName>
+          <GroupName>Driver</GroupName>
           <Files>
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Drivers\led.c</FilePath>
+              <FilePath>..\Driver\led.c</FilePath>
             </File>
             <File>
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Drivers\usart.c</FilePath>
+              <FilePath>..\Driver\usart.c</FilePath>
             </File>
           </Files>
         </Group>
